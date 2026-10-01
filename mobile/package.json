@@ -1,0 +1,37 @@
+{
+  "name": "shirwell-shipping-mobile",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild",
+    "prebuild:android": "expo prebuild --platform android --clean",
+    "build:android:apk": "cd android && ./gradlew assembleRelease",
+    "build:android:debug": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "expo": "~57.0.4",
+    "expo-blur": "^57.0.2",
+    "expo-build-properties": "^57.0.3",
+    "expo-clipboard": "^57.0.1",
+    "expo-constants": "~57.0.3",
+    "expo-linear-gradient": "^57.0.1",
+    "expo-linking": "~57.0.2",
+    "expo-router": "~57.0.4",
+    "expo-status-bar": "~57.0.0",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-google-mobile-ads": "^15.8.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "4.25.2",
+    "react-native-webview": "^13.16.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}
