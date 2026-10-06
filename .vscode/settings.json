@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.defaultProfile.osx": "zsh (with Node)",
+  "terminal.integrated.profiles.osx": {
+    "zsh (with Node)": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    },
+    "zsh": {
+      "path": "/bin/zsh"
+    }
+  }
+}

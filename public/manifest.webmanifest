@@ -1,0 +1,17 @@
+{
+  "name": "Shirwell Shipping",
+  "short_name": "Shirwell Shipping",
+  "description": "Shirwell Shipping — fast, reliable shipping and logistics worldwide.",
+  "start_url": "/home",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#f8b400",
+  "icons": [
+    {
+      "src": "/ship.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
